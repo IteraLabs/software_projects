@@ -21,29 +21,34 @@ To build a project that is a python package.
 
 ```
 | [root]
+|
 |── examples
-	|── example_1.py
+|  ├── example_1.py
+|
 |── files
-  |── datasets
-    ├── data.csv 
+|  ├── datasets
+|    ├── data.csv 
+|
 ├── src
-  ├── python_package
-    ├── submodule_a
-      ├── __init__.py
-      ├── functions_a.py
-    ├── submodule_b
-      ├── __init__.py
-	  ├── functions_b.py
-|── tests
-  |── connectivity
-    |── test_1.py
-    |── test_2.py
-.pre-commit-config.yaml
-CONTRIBUTING.md
-README.md
-LICENSE
-pyproject.toml
-requirements.txt
+|  ├── python_package
+|    ├── submodule_a
+|      ├── __init__.py
+|      ├── functions_a.py
+|    ├── submodule_b
+|      ├── __init__.py
+|      ├── functions_b.py
+|
+├── tests
+|  ├── connectivity
+|    ├── test_1.py
+|    ├── test_2.py
+|
+├── .pre-commit-config.yaml
+├── CONTRIBUTING.md
+├── README.md
+├── LICENSE
+├── pyproject.toml
+├── requirements.txt
 ```
 
 ## References
