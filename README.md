@@ -25,15 +25,15 @@ To build a project that is a python package.
 	|── example_1.py
 |── files
   |── datasets
-	├── data.csv 
+    ├── data.csv 
 ├── src
-	├── python_package
-		├── submodule_a
-			├── __init__.py
-			├── functions_a.py
-		├── submodule_b
-			├── __init__.py
-			├── functions_b.py
+  ├── python_package
+    ├── submodule_a
+      ├── __init__.py
+      ├── functions_a.py
+    ├── submodule_b
+      ├── __init__.py
+	  ├── functions_b.py
 |── tests
   |── connectivity
     |── test_1.py
@@ -46,11 +46,15 @@ pyproject.toml
 requirements.txt
 ```
 
-## Tools
+## References
 
-- markdown syntax
-- toml syntax
-- pre-commit
+- Python packaging: https://packaging.python.org/en/latest/
+- markdown syntax: https://www.markdownguide.org/basic-syntax/
+- toml syntax: https://toml.io/en/
+- pre-commit: https://pre-commit.com/index.html
+- pyproject.toml: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+- requirements.txt : https://packaging.python.org/en/latest/tutorials/installing-packages/#requirements-files
+- Python Modules / Subfolders: https://docs.python.org/3.11/tutorial/modules.html
 
 ## Branched Example
 
