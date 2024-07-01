@@ -1,6 +1,17 @@
 # software_projects
+
 Docs, tools, templates for projects following good practices for software development
 
+## Templates
+
+In this README.md you can find the general instructions, but, in each branch, you will find the full folder structure and content. So far, these are the projects mapped 
+
+### A Python Package
+- [project-structure/python-package](https://github.com/IteraLabs/software_projects/tree/project-structure/python-package)
+
+### A Rust crate
+
+- Coming soon...
 
 # Python Package
 
@@ -14,19 +25,15 @@ To build a project that is a python package.
 	|── example_1.py
 |── files
   |── datasets
-	  |── prices
-		  ├── prices_1.csv 
+	├── data.csv 
 ├── src
 	├── python_package
 		├── submodule_a
 			├── __init__.py
-			├── functions.py
+			├── functions_a.py
 		├── submodule_b
 			├── __init__.py
-			├── other_functions.py
-		├── tools
-			├── __init__.py
-			├── generic.py		
+			├── functions_b.py
 |── tests
   |── connectivity
     |── test_1.py
@@ -45,11 +52,9 @@ requirements.txt
 - toml syntax
 - pre-commit
 
-
 ## Branched Example
 
 Take a look into the following branch for a project-template with the corresponding folder structure
 
 - [project-structure/python-package](https://github.com/IteraLabs/software_projects/tree/project-structure/python-package)
-
 
